@@ -1,0 +1,41 @@
+Data Cleaning
+
+Three states of data exist:
+-Beyond Repair
+-Badly Damaged
+-In the Wrong Form
+
+Examples of data that is beyond repair:
+-corrupted data
+-data that is totally absent from files
+-data that was overwritten
+What to do: 
+	delete it and move on
+
+Examples of badly damaged data:
+-garbled data
+-many missing values
+-inconsisten sources
+-existing in multiple columns
+What to do:
+	Fill missing data:
+	-substitute data from another source
+	-interpolate between existing data points
+	-extrapolating from existing data
+	Standardize units of measure
+	Consolidate data from multiple sources
+
+Examples of data in the wrong form:
+-too granular/too much detail
+-numeric data stored as strings
+-data that needs to be split into multiple columns, such as addresses
+What to do:
+	Reshape the data
+	Change the data's organization
+	Convert data types
+	Parse text data
+	Split columns
+
+Data cleaning requires judgement! 
+A general strategy is to use iterative processes to ensure that all of the data is formatted the same way.
+Inspect --> Plan --> Execute
